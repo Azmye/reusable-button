@@ -7,9 +7,9 @@ export default function App() {
     <>
       <Nav />
       <main className="container mx-auto w-6/12 mt-5">
-        <div className="mt-2 p-6 w-full bg-slate-300 dark:bg-slate-800 rounded-md grid grid-cols-2 gap-5">
-          <section className="p-2 bg-white dark:bg-slate-600 dark:text-white rounded-md">
-            <h1 className="text-center">Basic</h1>
+        <div className="mt-2 p-6 w-full bg-slate-200 shadow-md dark:bg-slate-800 rounded-md grid grid-cols-2 gap-5">
+          <section className="p-2 bg-white shadow-md dark:bg-slate-600 dark:text-white rounded-md">
+            <h1 className="text-center font-semibold">Basic</h1>
 
             <hr />
 
@@ -20,8 +20,8 @@ export default function App() {
             </div>
           </section>
 
-          <section className="p-2 bg-white dark:bg-slate-600 dark:text-white rounded-md">
-            <h1 className="text-center">Size</h1>
+          <section className="p-2 bg-white shadow-md dark:bg-slate-600 dark:text-white rounded-md">
+            <h1 className="text-center font-semibold">Size</h1>
 
             <hr />
 
@@ -53,8 +53,8 @@ export default function App() {
             </div>
           </section>
 
-          <section className="p-2 bg-white dark:bg-slate-600 dark:text-white rounded-md">
-            <h1 className="text-center">Icon Button</h1>
+          <section className="p-2 bg-white shadow-md dark:bg-slate-600 dark:text-white rounded-md">
+            <h1 className="text-center font-semibold">Icon Button</h1>
 
             <hr />
 
@@ -75,8 +75,8 @@ export default function App() {
             </div>
           </section>
 
-          <section className="p-2 bg-white dark:bg-slate-600 dark:text-white rounded-md">
-            <h1 className="text-center">Tooltip Button</h1>
+          <section className="p-2 bg-white shadow-md dark:bg-slate-600 dark:text-white rounded-md">
+            <h1 className="text-center font-semibold">Tooltip Button</h1>
 
             <hr />
 
