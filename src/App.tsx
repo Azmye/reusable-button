@@ -13,7 +13,7 @@ export default function App() {
 
             <hr />
 
-            <div className="p-4  flex flex-row justify-evenly items-center gap-2 ">
+            <div className="p-4  flex flex-row justify-center items-center gap-2 flex-wrap ">
               <Button>Default</Button>
               <Button color="primary">Primary</Button>
               <Button color="secondary">Secondary</Button>
@@ -25,13 +25,30 @@ export default function App() {
 
             <hr />
 
-            <div className="p-4  flex flex-row justify-evenly items-center gap-2 ">
+            <div className="p-4  flex flex-row justify-center items-center gap-2 flex-wrap ">
               <Button size="sm">Small</Button>
               <Button size="md" color="primary">
-                Primary
+                Medium
               </Button>
               <Button size="lg" color="secondary">
-                Secondary
+                Large
+              </Button>
+              <Button startIcon={<Icon icon="emojione:ant" />} size="sm">
+                Small
+              </Button>
+              <Button
+                startIcon={<Icon icon="fluent-emoji:cat" fontSize={20} />}
+                size="md"
+                color="primary"
+              >
+                Medium
+              </Button>
+              <Button
+                startIcon={<Icon icon="twemoji:elephant" fontSize={20} />}
+                size="lg"
+                color="secondary"
+              >
+                Large
               </Button>
             </div>
           </section>
@@ -41,7 +58,7 @@ export default function App() {
 
             <hr />
 
-            <div className="p-4  flex flex-row justify-evenly items-center gap-2 ">
+            <div className="p-4  flex flex-row justify-center items-center gap-2 flex-wrap ">
               <Button
                 startIcon={<Icon icon="noto:weary-cat" fontSize={20} />}
                 size="md"
