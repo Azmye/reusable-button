@@ -3,8 +3,6 @@ import { useContext, useEffect } from "react";
 import Button from "./Button";
 import { ThemeContext } from "../context/ThemeProvider";
 
-// circum:dark
-
 export default function Nav() {
   const { theme, setTheme } = useContext(ThemeContext);
 
@@ -28,7 +26,10 @@ export default function Nav() {
         size="sm"
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
       >
-        <Icon icon={`ix:light-dark`} fontSize={22} />
+        <Icon
+          icon={theme === "light" ? `ix:light-dark` : `circum:dark`}
+          fontSize={22}
+        />
       </Button>
     </nav>
   );
